@@ -97,18 +97,18 @@ near = 2.0
 far = 150.0
 
 [node name="OmniLight" type="OmniLight" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 57.343, 22.541, 17.7093 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 21.7222, 22.541, 17.7093 )
 light_color = Color( 0.964706, 0.905882, 0.803922, 1 )
-light_energy = 4.0
+light_energy = 1.211
 light_indirect_energy = 2.0
 light_specular = 0.06
 shadow_bias = 2.168
 omni_range = 128.779
 
 [node name="OmniLight2" type="OmniLight" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -31.1846, 69.8084, 17.7093 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 75, 0 )
 light_color = Color( 0.964706, 0.905882, 0.803922, 1 )
-light_energy = 4.0
+light_energy = 3.266
 light_indirect_energy = 2.0
 light_specular = 0.06
 shadow_enabled = true
@@ -128,7 +128,7 @@ mesh = SubResource( 2 )
 skeleton = NodePath("")
 
 [node name="CollisionShape3" type="CollisionShape" parent="RigidNmbr1"]
-transform = Transform( 4, 0, 0, 0, 0.25, 0, 0, 0, 3, -0.152347, 0, 0 )
+transform = Transform( 4, 0, 0, 0, 0.25, 0, 0, 0, 3, 0, 0, 0 )
 shape = SubResource( 10 )
 
 [node name="CollisionShape2" type="CollisionShape" parent="RigidNmbr1"]
@@ -136,13 +136,13 @@ transform = Transform( 4, 0, 0, 0, 0.25, 0, 0, 0, 3, 0, 0, 0 )
 shape = SubResource( 11 )
 
 [node name="RigidNmbr0" type="RigidBody" parent="."]
-transform = Transform( 1.01766, 0, 0, 0, 1.01766, 0, 0, 0, 1.01766, 0, 6.02429, 9.67754 )
+transform = Transform( 1.01766, 0, 0, 0, 1.01766, 0, 0, 0, 1.01766, 1.2133, 6.02429, 12.9596 )
 gravity_scale = 6.0
 continuous_cd = true
 angular_damp = 45.0
 
 [node name="nmbr0" type="MeshInstance" parent="RigidNmbr0"]
-transform = Transform( 4, 0, 0, 0, 0.25, 0, 0, 0, 3, 0, 0, 0 )
+transform = Transform( 4, 0, 0, 0, 0.25, 0, 0, 0, 3, -1.20454, 0, -1.98301 )
 mesh = SubResource( 1 )
 skeleton = NodePath("")
 
@@ -160,7 +160,7 @@ directional_shadow_mode = 1
 directional_shadow_split_1 = 0.085
 
 [node name="StaticFloor4" type="StaticBody" parent="."]
-transform = Transform( 3, 0, 0, 0, 1.5, 0, 0, 0, 3, 11.6005, -3.6326, 13.0151 )
+transform = Transform( 3, 0, 0, 0, 1.5, 0, 0, 0, 3, 5.67092, -3.6326, 13.0151 )
 
 [node name="CollisionShape" type="CollisionShape" parent="StaticFloor4"]
 transform = Transform( 20, 0, 0, 0, 0.25, 0, 0, 0, 20, 0, 0, 0 )
