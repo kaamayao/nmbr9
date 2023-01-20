@@ -8,7 +8,7 @@ var gravity_is_active = false
 var gravity = -60
 var token_collision = null
 var current_token = null
-var grid_movement_velocity = 2
+var grid_movement_velocity = 2.01
 
 func _ready():
 	randomize()
