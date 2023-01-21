@@ -585,7 +585,6 @@ light_color = Color( 0.964706, 0.905882, 0.803922, 1 )
 light_energy = 3.491
 light_indirect_energy = 16.0
 light_specular = 0.0
-shadow_enabled = true
 omni_range = 128.779
 
 [node name="OmniLight5" type="OmniLight" parent="."]
@@ -593,7 +592,6 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.3006, 101.289, -35.2274 )
 light_color = Color( 0.964706, 0.905882, 0.803922, 1 )
 light_indirect_energy = 16.0
 light_specular = 0.0
-shadow_enabled = true
 shadow_bias = 2.168
 omni_range = 128.779
 
@@ -605,7 +603,7 @@ script = ExtResource( 4 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 11.5855, 2.79794, 2.83355 )
 
 [node name="glow0" type="MeshInstance" parent="Tokens/KinematicNmbr0"]
-transform = Transform( 4, 0, 0, 0, 0.15, 0, 0, 0, 3, 0, -10, 0 )
+transform = Transform( 4, 0, 0, 0, 0.3, 0, 0, 0, 3, 0, -15.3304, 0 )
 mesh = SubResource( 25 )
 skeleton = NodePath("")
 material/0 = ExtResource( 14 )
@@ -858,7 +856,7 @@ material/1 = ExtResource( 14 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.218246, 2.79794, 2.83355 )
 
 [node name="glow0" type="MeshInstance" parent="Tokens/KinematicNmbr10"]
-transform = Transform( 4, 0, 0, 0, 0.15, 0, 0, 0, 3, 0, -10, 0 )
+transform = Transform( 4, 0, 0, 0, 0.4, 0, 0, 0, 3, 0, -15.9085, 0 )
 mesh = SubResource( 25 )
 skeleton = NodePath("")
 material/0 = ExtResource( 14 )
